@@ -86,9 +86,10 @@ span , label{
 }
 
 span{
-    background-color: black;
+    background-color: #a4a36a94;
     width: 40px;
     padding: 5px;
+    border-radius: 50%;
 }
 
 div.campo > input{
