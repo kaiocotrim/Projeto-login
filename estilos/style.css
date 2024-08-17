@@ -85,6 +85,19 @@ span , label{
     color: white;
 }
 
+span{
+    background-color: black;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    transform: translateY(-6px);
+    height: 100%;
+    border-radius: 5px;
+    padding: 4px;
+
+}
 
 
 form > input[type=submit]{
@@ -118,5 +131,10 @@ div.campo{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+div.campo > label{
+    display: none;
 }
 
